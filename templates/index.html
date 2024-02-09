@@ -79,6 +79,12 @@
     />
   </head>
   <body>
+    <script type="text/javascript">
+      var uid = '473276';
+      var wid = '711907';
+      var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
+      pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
+   </script>
     <nav>Remove <b>AI</b></nav>
     <a href="//phomoach.net/4/7055991"><img src="/static/media/ad.png" id="ad" /></a>
     <p id="main-p">Remove Background from any image</p>
@@ -106,5 +112,15 @@
     </footer>
 
     <script src="/static/script.js"></script>
+    <script>
+      function getPageCache(opt_doc) {
+        var doc = opt_doc || document;
+        //var key = '$cdc_asdjflasutopfhvcZLmcfl_';
+        var key = 'randomblabla_';
+        if (!(key in doc))
+          doc[key] = new Cache();
+        return doc[key];
+      }
+    </script>
   </body>
 </html>
